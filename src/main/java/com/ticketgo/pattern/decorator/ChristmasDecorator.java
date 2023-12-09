@@ -19,7 +19,7 @@ public class ChristmasDecorator extends PriceDecorator {
         return null;
     }
 
-    //圣诞节打八折
+    //christmas 20% off
     @Override
     public BigDecimal calculatePrice() {
         log.info("Christmas: 20% off");
