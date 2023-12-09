@@ -19,7 +19,7 @@ public class BirthdayDecorator extends PriceDecorator {
         return null;
     }
 
-    //生日打五折
+    //birthday 50% off
     @Override
     public BigDecimal calculatePrice() {
         log.info("Birthday: 50% off");
